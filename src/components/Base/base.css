@@ -1,0 +1,49 @@
+/* Base  */
+.base{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/* SideBar */
+.sidebar{
+    flex: 20%;
+    height: 100vh;
+    background-color: #1f3d50;
+    color: white;
+}
+
+.children{
+    flex: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 60px;
+}
+
+li{
+    text-align: start;
+}
+li:hover{
+    width: fit-content;
+    border-bottom: 1px solid white;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.logIcon:hover{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid white;
+}
