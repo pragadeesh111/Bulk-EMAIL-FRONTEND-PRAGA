@@ -9,7 +9,7 @@ import { Checkbox, TextField } from "@mui/material";
 import { toast } from "react-toastify";
 import axios from "axios";
 import API from "../../url";
-import BasePage from "../Base/BasePage";
+//import BasePage from "../Base/BasePage";
 import HeaderPage from "../NavBar/Header";
 
 const CreateSchemaValidation = yup.object({
